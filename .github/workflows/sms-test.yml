@@ -1,7 +1,7 @@
     on: push
     jobs:
       sms-test:
-        runs-on: self-hosted
+        runs-on: ubuntu-latest
         steps:
         - name: Notification
           uses: twilio-labs/actions-sms@v1
